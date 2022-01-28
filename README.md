@@ -1,5 +1,5 @@
 # Weekly Assessment 🦔    
-###### Coding Two: Advanced Creative Coding  
+###### Coding Two: Advanced Frameworks    
 Jasper Zheng (Shuoyang)  
 
 [Git Repository](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng)  
