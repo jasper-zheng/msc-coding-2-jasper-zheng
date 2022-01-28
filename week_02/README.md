@@ -4,3 +4,9 @@ This is a 30-band vocoder implemented in openFrameworks using [Maximilian](https
 
 https://user-images.githubusercontent.com/74963879/151467762-3894d031-d4b9-4211-9627-e98a467986e5.mp4  
 
+### Implementation  
+
+![m](https://sethares.engr.wisc.edu/vocoders/channelvocoder.gif)  
+[↑ Img Reference](https://sethares.engr.wisc.edu/vocoders/channelvocoder.html)  
+
+
