@@ -6,4 +6,4 @@ Jasper Zheng (Shuoyang)
 
 ## Week 02  
 
-[Vocoder by ofxMaxim](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng/week_02)  
+[Vocoder by ofxMaxim](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng/tree/main/week_02)  
