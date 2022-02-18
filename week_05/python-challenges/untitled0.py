@@ -244,7 +244,6 @@ def idct2d(input_matrix):
 
 import matplotlib.pylab as plt
 
-
 plt.imshow(idct2d(wave_2d),cmap='gray')
 
 
