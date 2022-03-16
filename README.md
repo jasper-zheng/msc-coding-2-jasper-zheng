@@ -89,7 +89,7 @@ https://user-images.githubusercontent.com/74963879/158636189-7a6c68d3-4a56-4a22-
 
 ### Implementation  
 
-[Jupyter Notebook](./GAN_on_space_image.ipynb)   
+[Jupyter Notebook](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng/blob/main/week_0708/GAN_on_space_images.ipynb)   
 
 ```
 Model: "sequential_1"
