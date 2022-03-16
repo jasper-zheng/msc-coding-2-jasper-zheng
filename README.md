@@ -70,6 +70,8 @@ for (int i = 0; i < output.getNumFrames(); ++i){
 
 ## Week 05: Python Challenges with DCT and the Sieve of Eratosthenes  
 
+[Git](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng/tree/main/week_05)  
+
 <img src='./week_05/deployed1.png' width=400></img>  
 [Level 001](https://alaskawinter.cc/python-challenges/001)   
 [Jupyter Notebook Solution](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng/blob/main/week_05/python-challenges/sol/waves_are_images_solution.ipynb)  
