@@ -78,3 +78,60 @@ for (int i = 0; i < output.getNumFrames(); ++i){
 
 <img src='./week_05/deployed2.png' width=350></img>    
 [Level 002 (with solution)](https://alaskawinter.cc/python-challenges/002)   
+
+## Week 0708: DCGAN Trained on NASA's Space Images  
+[Git](https://github.com/jasper-zheng/msc-coding-2-jasper-zheng/tree/main/week_0708)   
+I trained a GAN model trained on 1k+ Hubble Space Telescope images.  
+
+https://user-images.githubusercontent.com/74963879/158636189-7a6c68d3-4a56-4a22-8216-6d70290da13d.mp4  
+
+<img src='./week_0708/images/combined.png' width=800></img>  
+
+### Implementation  
+```
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_1 (Dense)              (None, 3200)              323200    
+_________________________________________________________________
+leaky_re_lu_7 (LeakyReLU)    (None, 3200)              0         
+_________________________________________________________________
+reshape (Reshape)            (None, 5, 5, 128)         0         
+_________________________________________________________________
+conv2d_transpose (Conv2DTran (None, 10, 10, 128)       147584    
+_________________________________________________________________
+leaky_re_lu_8 (LeakyReLU)    (None, 10, 10, 128)       0         
+_________________________________________________________________
+conv2d_transpose_1 (Conv2DTr (None, 20, 20, 128)       147584    
+_________________________________________________________________
+leaky_re_lu_9 (LeakyReLU)    (None, 20, 20, 128)       0         
+_________________________________________________________________
+conv2d_transpose_2 (Conv2DTr (None, 40, 40, 128)       147584    
+_________________________________________________________________
+leaky_re_lu_10 (LeakyReLU)   (None, 40, 40, 128)       0         
+_________________________________________________________________
+conv2d_transpose_3 (Conv2DTr (None, 80, 80, 32)        36896     
+_________________________________________________________________
+leaky_re_lu_11 (LeakyReLU)   (None, 80, 80, 32)        0         
+_________________________________________________________________
+conv2d_transpose_4 (Conv2DTr (None, 160, 160, 16)      4624      
+_________________________________________________________________
+leaky_re_lu_12 (LeakyReLU)   (None, 160, 160, 16)      0         
+_________________________________________________________________
+conv2d_transpose_5 (Conv2DTr (None, 320, 320, 16)      2320      
+_________________________________________________________________
+leaky_re_lu_13 (LeakyReLU)   (None, 320, 320, 16)      0         
+_________________________________________________________________
+conv2d_transpose_6 (Conv2DTr (None, 640, 640, 16)      2320      
+_________________________________________________________________
+leaky_re_lu_14 (LeakyReLU)   (None, 640, 640, 16)      0         
+_________________________________________________________________
+conv2d_7 (Conv2D)            (None, 640, 640, 3)       771       
+=================================================================
+Total params: 812,883
+Trainable params: 812,883
+Non-trainable params: 0
+_________________________________________________________________
+```
+[Jupyter Notebook](GAN_on_space_image.ipynb)   
