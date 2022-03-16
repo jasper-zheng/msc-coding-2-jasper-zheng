@@ -88,6 +88,9 @@ https://user-images.githubusercontent.com/74963879/158636189-7a6c68d3-4a56-4a22-
 <img src='./week_0708/images/combined.png' width=800></img>  
 
 ### Implementation  
+
+[Jupyter Notebook](./GAN_on_space_image.ipynb)   
+
 ```
 Model: "sequential_1"
 _________________________________________________________________
@@ -134,4 +137,3 @@ Trainable params: 812,883
 Non-trainable params: 0
 _________________________________________________________________
 ```
-[Jupyter Notebook](GAN_on_space_image.ipynb)   
